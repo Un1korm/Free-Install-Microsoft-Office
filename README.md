@@ -4,7 +4,6 @@ This repository provides detailed instructions on how to install Microsoft Offic
 ## Скачиваем приложение/утилиту Office(R)tool:
 1. Заходим на англоязычный сайт [My Digital Life](https://forums.mydigitallife.net) в статью [Office(R)tool](https://forums.mydigitallife.net/threads/office-r-toolproject.84450/). На территории РФ сайт может быть заблокирован, поэтому стоит заходить с помощью VPN. Также, чтобы статья отображалась в полном ее содержании, нужно зарегистрироваться на сайте.
 2. Office(R)tool для скачивания с любого сайта: 
-- (https://pixeldrain.com/u/ZJucYBB6) 
 - (https://www.mediafire.com/file/6wsko6huw9tbwnz) 
 - (https://www.upload.ee/files/15790511/OfficeRTool.7z.html) 
 -- INFORMATION: 
