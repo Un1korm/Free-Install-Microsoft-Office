@@ -1,5 +1,5 @@
 # Free-Install-Microsoft-Office
-This repository provides detailed instructions on how to install Microsoft Office for free
+В данном репозитории мы рассмотрим и скачаем приложение-установщик Office(R)tool для бесплтного получения Microsoft Office любой доступной версии. Метод не подходит тем, кто хочет установить Microsoft Office и забыть про Office(R)tool, так как мы не будем покупать лицензионный ключ для активации Microsoft Office, а будем пользоваться бесплатной активацией (которую нужно обновлять каждые 150 дней = 0.5 года = полгода).
 
 
 ## Скачиваем приложение для установки Office(R)tool:
@@ -25,6 +25,7 @@ This repository provides detailed instructions on how to install Microsoft Offic
    - Параметры защиты от вирусов и угроз (Управление настройками) -->
    - Исключения (Добавление или удаление исключений) -->
    - Добавить исключение (Выбираем папку с файлом "Office(R)tool")
+8. В скаченном вами файле должен быть файл `"Read me".pdf`, в котором рассказывается процесс установки Office(R)tool на английском языке от создателя [статьи](https://forums.mydigitallife.net/threads/office-r-toolproject.84450/). Вы можете воспользоваться им, используя встроенные переводчик выделенных слов в файле.
 
 
 ПУНКТ B 
