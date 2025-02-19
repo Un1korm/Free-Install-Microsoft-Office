@@ -46,7 +46,7 @@
 5. После это откроется главное меню приложения (на скриншоте представлена версия 2023 года):
    ![](other/install_activ_menu.png)
 6. Набираем на клавиатуре букву `D` (выбираем пункт под буквой `D`) и нажимаем `Enter`:
-    > "[D] DOWNLOAD OFFICE OFFLINE INSTALL PACKAGE" / "[D] Загрузить пакет для автономной установки Office" 
+    - "[D] DOWNLOAD OFFICE OFFLINE INSTALL PACKAGE" / "[D] Загрузить пакет для автономной установки Office" 
       ```cmd
       DownloadPath: "C:\Users\Admin\Downloads\OfficeRtool\Office2021" 
       Channel-ID: not set 
