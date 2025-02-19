@@ -81,7 +81,7 @@
       Exit to Main Menu (X) 
       Set Channel-Index-# (1,2,3,4,5,6,7,8,M) or X or press return for Current >
       ```
-    - Мы выбираем Office, который наc интересует, и сразу пишем цифру, которая подходит под строку с интересующим нас `microsoft office`. Пример:
+    - Выбираем Microsoft Office, который наc интересует, и сразу пишем цифру, которая соотвествует нашему выбору. Пример:
       ```cmd
       Set Channel-Index-# (1,2,3,4,5,6,7,8,M) or X or press return for Current >8
       ```
