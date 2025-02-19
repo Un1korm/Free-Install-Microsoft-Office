@@ -48,43 +48,46 @@
 6. Набираем на клавиатуре букву `D` (выбираем пункт под буквой `D`) и нажимаем `Enter`:
     - Английский - "[D] DOWNLOAD OFFICE OFFLINE INSTALL PACKAGE"
     - Русский - "[D] Загрузить пакет для автономной установки Office" 
-    ``` cmd
-    DownloadPath: "C:\Users\Admin\Downloads\OfficeRtool\Office2021" 
-    Channel-ID: not set 
-    Office build: not set 
-    Language: ru-ru (Russian) 
-    Architecture: x64 
-    ________________________________________________________________ 
-    Set new Office Package download path or press return for 
-    Set Office Package Download Path = "C:\Downloads>
-    ```
--- Переходим в проводник (загрузки) и копируем путь к папке Office* (где * — это год 
-офиса или именование) (##ПУНКТ В). 
--- Вставляем этот путь сразу без пробелов: 
-Set Office Package Download Path = 
-"C:\Downloads>C:\Users\Admin\Downloads\OfficeRtool\Office2021 
--- Идёт процесс загрузки, загружается таблица со значениями: 
-Download path saved. 
-"Public known" standard distribution channels 
-Channel Name - Internal Naming Index-# 
-________________________________________________________________ 
-Current (Retail/RTM) - (Production::CC) (1) 
-CurrentPreview (Office Insider SLOW) - (Insiders::CC) (2) 
-BetaChannel (Office Insider FAST) - (Insiders::DEVMAIN) (3) 
-MonthlyEnterprise - (Production::MEC) (4) 
-SemiAnnual (Business) - (Production::DC) (5) 
-SemiAnnualPreview (Business Insider) - (Insiders::FRDC) (6) 
-PerpetualVL2019 - (Production:LTSC) (7) 
-PerpetualVL2021 - (Production:LTSC2021) (8) 
-Manual_Override (set identifier for Channel-ID's not public known) (M) 
-Exit to Main Menu (X) 
-Set Channel-Index-# (1,2,3,4,5,6,7,8,M) or X or press return for Current > 
--- Мы выбираем Office, который нам нужен (2019[7] или 2021[8]). И сразу пишем 
-цифру (цифры находятся справа), которая подходит под эту строку: 
-Set Channel-Index-# (1,2,3,4,5,6,7,8,M) or X or press return for Current >8 
+      ``` cmd
+      DownloadPath: "C:\Users\Admin\Downloads\OfficeRtool\Office2021" 
+      Channel-ID: not set 
+      Office build: not set 
+      Language: ru-ru (Russian) 
+      Architecture: x64 
+      ________________________________________________________________ 
+      Set new Office Package download path or press return for 
+      Set Office Package Download Path = "C:\Downloads>
+      ```
+    - Переходим в проводник, где у нас находится главная папка `Office(R)tool`, и копируем путь к папке `Office*` (где `*` — это год microsot office, который мы хотим себе установить)
+    - Вставляем этот путь сразу без пробелов. Пример:
+      ``` cmd
+      Set Office Package Download Path = "C:\Downloads>C:\Users\Admin\Downloads\OfficeRtool\Office2021
+      ```
+    - Идёт процесс загрузки - загружается таблица со значениями:
+      ```cmd
+      Download path saved. 
+      "Public known" standard distribution channels 
+      Channel Name - Internal Naming Index-# 
+      ________________________________________________________________ 
+      Current (Retail/RTM) - (Production::CC) (1) 
+      CurrentPreview (Office Insider SLOW) - (Insiders::CC) (2) 
+      BetaChannel (Office Insider FAST) - (Insiders::DEVMAIN) (3) 
+      MonthlyEnterprise - (Production::MEC) (4) 
+      SemiAnnual (Business) - (Production::DC) (5) 
+      SemiAnnualPreview (Business Insider) - (Insiders::FRDC) (6) 
+      PerpetualVL2019 - (Production:LTSC) (7) 
+      PerpetualVL2021 - (Production:LTSC2021) (8) 
+      Manual_Override (set identifier for Channel-ID's not public known) (M) 
+      Exit to Main Menu (X) 
+      Set Channel-Index-# (1,2,3,4,5,6,7,8,M) or X or press return for Current >
+      ```
+    - Мы выбираем Office, который наc интересует, и сразу пишем цифру, которая подходит под строку с интересующим нас `microsoft office`. Пример:
+      ```cmd
+      Set Channel-Index-# (1,2,3,4,5,6,7,8,M) or X or press return for Current >8
+      ```
 -- Высвечивается новая строка: 
 Set Office Build - or press return for 16.0.14332.20582> 
--- Нажимаем ENTER - соглашаем. 
+-- Нажимаем ENTER - соглашаемся. 
 -- Высвечивается много языков. Мы пишем либо Russian или подтверждаем строку 
 (нажимаем ENTER): 
 Set language[s] Value[s] - or press return for ru-ru> 
