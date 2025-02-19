@@ -43,21 +43,21 @@
 2. Ждём пока идёт загрузка...
 3. Взаимодействие пользователя с приложение происходит исключительно на английском языке, поэтому стоит переключить клавиатуру с `русского` на `английский язык`.
 4. После загрузки `приложение OfficeRtool` запросит согласие на её использование, нажимаем `да` = английскую букву `A`.
-5. После это откроется главное меню приложения:
-6. ![]()
-7. Набираем на клавиатуре букву `D` (выбираем пункт под буквой `D`) и нажимаем `Enter`:
-    - Английский - "DOWNLOAD OFFICE OFFLINE INSTALL PACKAGE"
-    - Русский - "Загрузить пакет для автономной установки Office" 
-``` cmd
-DownloadPath: "C:\Users\Admin\Downloads\OfficeRtool\Office2021" 
-Channel-ID: not set 
-Office build: not set 
-Language: ru-ru (Russian) 
-Architecture: x64 
-________________________________________________________________ 
-Set new Office Package download path or press return for 
-Set Office Package Download Path = "C:\Downloads>
-```
+5. После это откроется главное меню приложения (на скриншоте представлена версия 2023 года):
+   ![](other/install_activ_menu.png)
+6. Набираем на клавиатуре букву `D` (выбираем пункт под буквой `D`) и нажимаем `Enter`:
+    - Английский - "[D] DOWNLOAD OFFICE OFFLINE INSTALL PACKAGE"
+    - Русский - "[D] Загрузить пакет для автономной установки Office" 
+    ``` cmd
+    DownloadPath: "C:\Users\Admin\Downloads\OfficeRtool\Office2021" 
+    Channel-ID: not set 
+    Office build: not set 
+    Language: ru-ru (Russian) 
+    Architecture: x64 
+    ________________________________________________________________ 
+    Set new Office Package download path or press return for 
+    Set Office Package Download Path = "C:\Downloads>
+    ```
 -- Переходим в проводник (загрузки) и копируем путь к папке Office* (где * — это год 
 офиса или именование) (##ПУНКТ В). 
 -- Вставляем этот путь сразу без пробелов: 
