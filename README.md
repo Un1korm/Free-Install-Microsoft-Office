@@ -59,7 +59,7 @@
       Set Office Package Download Path = "C:\Downloads>
       ```
     - Переходим в проводник, где у нас находится главная папка `Office(R)tool`, и копируем путь к папке `Office*` (где `*` — это год microsot office, который мы хотим себе установить)
-    - Вставляем этот путь сразу без пробелов. Пример:
+    - Вставляем этот путь сразу (без пробелов). Пример:
       ``` cmd
       Set Office Package Download Path = "C:\Downloads>C:\Users\Admin\Downloads\OfficeRtool\Office2021
       ```
