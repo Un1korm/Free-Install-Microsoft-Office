@@ -98,33 +98,40 @@
     - После полной загрузки вас выбросит автоматически на главное меню приложения Office(R)tool
   
    
-## Первая активация Microsoft Office или продление активации:
--- Набираем i в главном меню приложения (английский язык) - выбираем пункт i. 
- Английский - "INSTALL OFFICE FROM OFFLINE INSTALL PACKAGE-IMAGE" 
- Русский - "Установить Office из оффлайн установить пакет-изображений" 
--- После выбираем созданный нами ранее Office: 
-Set Office Package Download Path = "C:\Users\Admin\Downloads\OfficeRtool\Office2021" 
-> 
-List of available installation packages 
-1 ru-ru_Office_PerpetualVL2021_x64_v16.0.14332.20582 
-Enter package number > 
--- Пишем сразу 1 (номер под которым высветилось). 
--- Выбираем пункт 3 - пишем сразу цифру 3 (номер под которым высветилось). 
-Office Professional Plus 2021 Volume 
--- Выбираем, что нам нужно установить. ENTER - нажимаем для того, что НУЖНО. D - 
-нажимаем для того, что НЕ НУЖНО. 
--- Пример: 
-Disable Word install> ENTER (БУДЕТ загружено) 
-Disable Excel install> D (НЕ БУДЕТ загружено) 
--- Высвечивается таблица того, что мы выбрали или не выбрали. 
--- Появляется надпись: 
-Английский - "(ENTER) to install, (C) create an installation package, (R) start installation, (E) 
-exit to the main menu >" 
-Русский - "(ENTER) для установки, (C) создать пакет установки, (R) начать установку, (E) 
-выйти в главное меню >" 
--- Пишем ENTER – сразу устанавливаем. 
--- Идёт загрузка. 
--- АКТИВАЦИЯ И ОБНОВЛЕНИЕ АКТИВАЦИИ 
+## Загрузка выбранных компонентов нашего Microsoft Office:
+1. Набираем на клавиатуре букву `I` (выбираем пункт под буквой `I`) и нажимаем `Enter`:
+   - "INSTALL OFFICE FROM OFFLINE INSTALL PACKAGE-IMAGE" / "Установить Office из оффлайн установить пакет-изображений"
+   - Нам высвечивается ранее созданные нами офисы (по порядку 1 2 3 ...):
+     ```cmd
+     Set Office Package Download Path = "C:\Users\Admin\Downloads\OfficeRtool\Office2021"
+     > 
+     List of available installation packages 
+     1 ru-ru_Office_PerpetualVL2021_x64_v16.0.14332.20582 
+     Enter package number >
+     ```
+   - Выбираем офис, которые нас интересует, и напишем его цифру (Например вводим цифру: `1`):
+     ```cmd
+     Set Office Package Download Path = "C:\Users\Admin\Downloads\OfficeRtool\Office2021"
+     > 
+     List of available installation packages 
+     1 ru-ru_Office_PerpetualVL2021_x64_v16.0.14332.20582 
+     Enter package number >1
+     ```
+   - Выбираем версию нашего офиса и пишем цифру (Например: `Office Professional Plus 2021 Volume`)
+   - Выбираем, что нам нужно установить. Если хотим загрузить данный компонент офиса, то нажимаем `ENTER`. Если не хотим загружать данный компонент офиса, то нажимаем английскую букву `D`. Пример:
+     ```cmd
+     Disable Word install> "нажали ENTER" (БУДЕТ загружено) 
+     Disable Excel install> D (НЕ БУДЕТ загружено)
+     ```
+ - После этого высвечивается таблица того, что мы выбрали и от чего мы отказались
+ - Появляется надпись: 
+   > "(ENTER) to install, (C) create an installation package, (R) start installation, (E) exit to the main menu >" / "(ENTER) для установки, (C) создать пакет установки, (R) начать установку, (E) выйти в главное меню >"
+ - Нажимаем/пишем `ENTER` (установится все компоненты офиса, которые мы выбрали) 
+ - Идёт загрузка...
+ - После полной загрузки вас выбросит автоматически на главное меню приложения Office(R)tool
+
+
+## Первая или повторная активация Microsoft Office:
 -- Выбираем в меню приложения пункт К и активируем (проверяем, не активировалась 
 ли само. Тут нет ничего плохого!) 
  Английский - "START OR RENEW KMS ACTIVATION" 
