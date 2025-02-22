@@ -126,7 +126,8 @@
  - После этого высвечивается таблица того, что мы выбрали и от чего мы отказались
  - Появляется надпись: 
    ```cmd
-   "(ENTER) to install, (C) create an installation package, (R) start installation, (E) exit to the main menu >" / "(ENTER) для установки, (C) создать пакет установки, (R) начать установку, (E) выйти в главное меню >"
+   "(ENTER) to install, (C) create an installation package, (R) start installation, (E) exit to the main menu >"
+   "(ENTER) для установки, (C) создать пакет установки, (R) начать установку, (E) выйти в главное меню >"
    ```
  - Нажимаем/пишем `ENTER` (произойдет установка всех компонентов офиса, которые мы выбрали) 
  - Идёт загрузка...
