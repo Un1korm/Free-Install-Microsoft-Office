@@ -46,7 +46,7 @@
 5. После это откроется главное меню приложения (на скриншоте представлена версия 2023 года):
    ![](other/install_activ_menu.png)
 6. Набираем на клавиатуре букву `D` (выбираем пункт под буквой `D`) и нажимаем `Enter`:
-    - "[D] DOWNLOAD OFFICE OFFLINE INSTALL PACKAGE" / "[D] Загрузить пакет для автономной установки Office" 
+    > "[D] DOWNLOAD OFFICE OFFLINE INSTALL PACKAGE" / "[D] Загрузить пакет для автономной установки Office" 
       ```cmd
       DownloadPath: "C:\Users\Admin\Downloads\OfficeRtool\Office2021" 
       Channel-ID: not set 
@@ -100,7 +100,7 @@
    
 ## Загрузка выбранных компонентов нашего Microsoft Office:
 1. Набираем на клавиатуре букву `I` (выбираем пункт под буквой `I`) и нажимаем `Enter`:
-   - "INSTALL OFFICE FROM OFFLINE INSTALL PACKAGE-IMAGE" / "Установить Office из оффлайн установить пакет-изображений"
+   > "[I] INSTALL OFFICE FROM OFFLINE INSTALL PACKAGE-IMAGE" / "[I] Установить Office из оффлайн установить пакет-изображений"
    - Нам высвечивается ранее созданные нами офисы (по порядку 1 2 3 ...):
      ```cmd
      Set Office Package Download Path = "C:\Users\Admin\Downloads\OfficeRtool\Office2021"
@@ -132,7 +132,7 @@
 
 
 ## Первая или повторная активация Microsoft Office:
-1. Набираем на клавиатуре букву `I` (выбираем пункт под буквой `I`) и нажимаем `Enter`:
-   > "START OR RENEW KMS ACTIVATION" / "Начать или продлить активацию KMS"
+1. Набираем на клавиатуре букву `K` (выбираем пункт под буквой `K`) и нажимаем `Enter`:
+   > "[K] START OR RENEW KMS ACTIVATION" / "Начать или продлить активацию KMS"
 3. После загрузки Microsoft Office активирован и готов к работе
-2. По истечению 150-и дней заходим в приложение и обновляем активацию этой же командой: `Пункт I` - `START OR RENEW KMS ACTIVATION`
+2. По истечению 150-и дней заходим в приложение и обновляем активацию этой же командой: `[K] START OR RENEW KMS ACTIVATION`
