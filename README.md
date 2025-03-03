@@ -3,7 +3,7 @@
 
 
 ## Удаляем не активированный Microsoft Office:
-Если у нас на компьютере остался не активированный Microsoft Office или компоненты от него, то перед его нужно удалить с помощью официальной программы Windows Microsoft под названием `SetupProd_OffScrub`, которая находится в данном репозитории в папке `[microsoft-office-remove-app](microsoft-office-remove-app/SetupProd_OffScrub.exe)`. Данная программа удаляет только Microsoft Office и его компоненты с вашего компьютера, другие программы затронуты не будут!
+Если у нас на компьютере остался не активированный Microsoft Office или компоненты от него, то перед его нужно удалить с помощью официальной программы Windows Microsoft под названием `SetupProd_OffScrub`, которая находится в данном репозитории в папке [microsoft-office-remove-app](microsoft-office-remove-app/SetupProd_OffScrub.exe). Данная программа удаляет только Microsoft Office и его компоненты с вашего компьютера, другие программы затронуты не будут!
 
 
 ## Скачиваем приложение для установки - Office(R)tool:
