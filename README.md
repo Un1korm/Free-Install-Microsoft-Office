@@ -4,13 +4,11 @@
 
 ## Альтернативные варианты установки Microsoft Office:
 Видео: ["Как скачать офис 2024-2025. Теперь точно все"](https://www.youtube.com/watch?v=dX0JnGkSLjM)
-```
-Ссылка на OfficeToolPlus - https://otp.landian.vip/en-us/download.html
+> Ссылка на OfficeToolPlus - https://otp.landian.vip/en-us/download.html
 Обход запрета на скачивание из РФ - https://gravesoft.dev/bypass-russian-geoblock
 [ЕСЛИ НЕ ОТКРЫВАЕТСЯ ССЫЛКА] reg add "HKCU\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\Ecs" /v "CountryCode" /t REG_SZ /d "std::wstring|US" /f 
 Активация офис - https://massgrave.dev/ ИЛИ - https://github.com/massgravel/Microsoft-Activation-Scripts
 Все файлы продублированны в тг канале - t.me/levgeni4
-```
 
 
 ## Удаляем не активированный Microsoft Office:
