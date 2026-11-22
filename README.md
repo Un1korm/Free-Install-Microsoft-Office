@@ -10,7 +10,8 @@
 
 Этот метод является наиболее надежным на текущий момент. Он позволяет скачать оригинальный дистрибутив Office напрямую с серверов Microsoft и активировать его с помощью скрипта Ohook.
 
-📺 **Видеоинструкция:** [Смотреть на YouTube](https://www.youtube.com/watch?v=dX0JnGkSLjM&ab_channel=LEV)
+### 📺 Видеоинструкция
+<video src="https://github.com" controls="controls" style="max-width: 100%;"></video>
 
 ### Шаг 1: Удаление неактивированного Microsoft Office
 
