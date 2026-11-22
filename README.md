@@ -34,8 +34,7 @@ https://github.com/user-attachments/assets/30bd7483-f056-4b1e-8959-22e6ee582984
 
 **Порядок действий**:
 
-1. Скачайте версию **Get Help для командной строки** с официальной страницы Microsoft по ссылке:  
-   [https://learn.microsoft.com/ru-ru/troubleshoot/microsoft-365/admin/miscellaneous/get-help-office-uninstall](https://learn.microsoft.com/ru-ru/troubleshoot/microsoft-365/admin/miscellaneous/get-help-office-uninstall)
+1. Скачайте версию **Get Help для командной строки** с официальной страницы Microsoft по [ссылке](https://learn.microsoft.com/ru-ru/troubleshoot/microsoft-365/admin/miscellaneous/get-help-office-uninstall)
 2. Распакуйте скачанный архив в любую удобную папку.
 3. Нажмите **Пуск**, введите `cmd`, найдите «Командная строка», нажмите на неё правой кнопкой мыши и выберите **«Запуск от имени администратора»**.
 4. В открывшемся окне командной строки перейдите в папку с распакованным файлом `GetHelpCmd.exe` (например, с помощью команды `cd C:\путь\к\папке`).
@@ -68,27 +67,34 @@ https://github.com/user-attachments/assets/30bd7483-f056-4b1e-8959-22e6ee582984
 > - Для Office 2024 используйте параметр `-OfficeVersion M3652024`.
 
 ### Шаг 2: Скачивание Office Tool Plus (OTP)
-1. Перейдите на официальный сайт: [https://otp.landian.vip/en-us/download.html](https://otp.landian.vip/en-us/download.html)
+1. Перейдите на [официальный сайт](https://otp.landian.vip/en-us/download.html)
 2. Скачайте последнюю версию (рекомендуется вариант *Office Tool Plus with runtime*).
 3. Распакуйте архив в любую удобную папку и запустите `OfficeToolPlus.exe` от имени администратора.
 
 ### Шаг 3: Обход блокировки скачивания из РФ (если необходимо)
 Если у вас не скачивается сам Office или не открывается сайт OTP без VPN, используйте обход блокировки:
-*   **Ссылка:** [https://gravesoft.dev/bypass-russian-geoblock](https://gravesoft.dev/bypass-russian-geoblock)
-*   *Следуйте инструкциям на сайте (обычно требуется запустить небольшой скрипт).*
+1. Заходим на сайт Gravesoft.dev в раздел [Bypass Microsoft Geoblocking](https://gravesoft.dev/bypass-russian-geoblock)
+2. Находим подраздел "Solution 1" (если не помог, то пользуемся "Solution 2")
+3. Копируем скрипт для командной строки, которую нужно запустить от имени администратора `reg add "HKCU\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\Ecs" /v "CountryCode" /t REG_SZ /d "std::wstring|US" /f`
 
 ### Шаг 4: Установка Office через OTP
-1. В программе OTP перейдите в раздел **«Развертывание»** (Deployment).
-2. Выберите нужный продукт (например, *Office LTSC Professional Plus 2024* или *2021*).
-3. Выберите архитектуру (`x64` рекомендуется для большинства современных ПК).
-4. Нажмите **«Начать установку»** и дождитесь окончания процесса (интернет должен быть стабильным).
+1. В программе Office Tool Plus перейдите в раздел **«Развертывание»** (Deployment) в левом меню.
+2. В блоке **«Продукты»** нажмите кнопку **«Добавить продукты»**.
+3. В появившемся окне выберите нужный продукт (например, *Office LTSC Professional Plus 2024* или *2021*), а после необходимые компоненты (Word, Excel, PowerPoint и т.д.).
+4. В блоке **«Языки»** нажмите кнопку **«Добавить языки»** и выберите **русский язык**.
+5. В блоке **«Развернуть Office»** настройте параметры:
+   * **Режим развертывания**: выберите **Установка** (Install).
+   * **Архитектура**: выберите **64-бита** (рекомендуется для большинства современных ПК).
+   * **Канал обновлений**: выберите нужный (например `Office 2024 бесcрочный (корпоративный)`)
+   * **Установочный модуль**: оставьте **Office Deployment Tool**.
+6. Нажмите кнопку **«Начать развертывание»** и дождитесь окончания процесса (интернет должен быть стабильным).
 
 ### Шаг 5: Активация (Ohook)
-1. Перейдите на сайт [https://massgrave.dev/](https://massgrave.dev/)
-2. Найдите раздел **Ohook Activation** (или просто скачайте актуальный скрипт активации для Office).
-3. Запустите PowerShell от имени администратора и введите команду, указанную на сайте (обычно `irm https://massgrave.dev/get | iex`).
-4. В появившемся меню выберите пункт для активации Office (Ohook).
-5. Дождитесь сообщения **`Office is permanently activated.`** (Office активирован навсегда).
+1. Перейдите на сайт Massgrave.dev, найдите раздел [Activate Windows / Office](https://massgrave.dev/).
+3. Запустите PowerShell от имени администратора и введите команду, указанную на сайте `irm https://massgrave.dev/get | iex`
+4. В появившемся меню выберите пункт под номером 2 `Ohook | Office | Permanent`
+5. Затем пункт под номером 1 `Install Ohook Office Activation`
+6. Дождитесь сообщения **`Office is permanently activated.`** (Office активирован навсегда).
 
 > 💡 **Важное замечание по поводу предупреждения WPA:**
 > Скрипт активации может выдать предупреждение о большом количестве записей в реестре WPA (например, "A large number of WPA registries have been found"). **Если ваш компьютер работает нормально, а в Диспетчере задач нет процесса `sppsvc.exe`, который нагружает ЦП на 100%, — просто проигнорируйте это сообщение.** Не пытайтесь чистить реестр WPA без острой необходимости, чтобы не сбросить активацию Windows.
