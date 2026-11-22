@@ -101,7 +101,8 @@ https://github.com/user-attachments/assets/30bd7483-f056-4b1e-8959-22e6ee582984
    ```
 5. В появившемся меню выберите пункт под номером два `Ohook | Office | Permanent`
 6. Затем пункт под номером один `Install Ohook Office Activation`
-7. Дождитесь сообщения `Office is permanently activated` (Office активирован навсегда).
+7. Дождитесь сообщения `Office is permanently activated` (Office активирован навсегда)
+<img width="981" height="556" alt="изображение" src="https://github.com/user-attachments/assets/446227fd-7481-4688-8a09-7813638badfc" />
 
 > 💡 **Важное замечание по поводу предупреждения WPA:**
 > Скрипт активации может выдать предупреждение о большом количестве записей в реестре WPA (например, "A large number of WPA registries have been found"). **Если ваш компьютер работает нормально, а в Диспетчере задач нет процесса `sppsvc.exe`, который нагружает ЦП на 100%, — просто проигнорируйте это сообщение.** Не пытайтесь чистить реестр WPA без острой необходимости, чтобы не сбросить активацию Windows.
