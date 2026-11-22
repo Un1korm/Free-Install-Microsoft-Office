@@ -75,7 +75,10 @@ https://github.com/user-attachments/assets/30bd7483-f056-4b1e-8959-22e6ee582984
 Если у вас не скачивается сам Office или не открывается сайт OTP без VPN, используйте обход блокировки:
 1. Заходим на сайт Gravesoft.dev в раздел [Bypass Microsoft Geoblocking](https://gravesoft.dev/bypass-russian-geoblock)
 2. Находим подраздел "Solution 1" (если не помог, то пользуемся "Solution 2")
-3. Копируем скрипт для командной строки, которую нужно запустить от имени администратора `reg add "HKCU\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\Ecs" /v "CountryCode" /t REG_SZ /d "std::wstring|US" /f`
+3. Копируем скрипт для командной строки, которую нужно запустить от имени администратора:
+   ```cmd
+   reg add "HKCU\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\Ecs" /v "CountryCode" /t REG_SZ /d "std::wstring|US" /f
+   ```
 
 ### Шаг 4: Установка Office через OTP
 1. В программе Office Tool Plus перейдите в раздел **«Развертывание»** (Deployment) в левом меню.
@@ -91,10 +94,13 @@ https://github.com/user-attachments/assets/30bd7483-f056-4b1e-8959-22e6ee582984
 
 ### Шаг 5: Активация (Ohook)
 1. Перейдите на сайт Massgrave.dev, найдите раздел [Activate Windows / Office](https://massgrave.dev/).
-3. Запустите PowerShell от имени администратора и введите команду, указанную на сайте `irm https://massgrave.dev/get | iex`
-4. В появившемся меню выберите пункт под номером 2 `Ohook | Office | Permanent`
-5. Затем пункт под номером 1 `Install Ohook Office Activation`
-6. Дождитесь сообщения **`Office is permanently activated.`** (Office активирован навсегда).
+3. Запустите PowerShell от имени администратора и введите команду, указанную на сайте:
+   ```cmd
+   irm https://massgrave.dev/get | iex
+   ```
+5. В появившемся меню выберите пункт под номером два `Ohook | Office | Permanent`
+6. Затем пункт под номером один `Install Ohook Office Activation`
+7. Дождитесь сообщения `Office is permanently activated` (Office активирован навсегда).
 
 > 💡 **Важное замечание по поводу предупреждения WPA:**
 > Скрипт активации может выдать предупреждение о большом количестве записей в реестре WPA (например, "A large number of WPA registries have been found"). **Если ваш компьютер работает нормально, а в Диспетчере задач нет процесса `sppsvc.exe`, который нагружает ЦП на 100%, — просто проигнорируйте это сообщение.** Не пытайтесь чистить реестр WPA без острой необходимости, чтобы не сбросить активацию Windows.
