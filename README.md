@@ -91,6 +91,7 @@ https://github.com/user-attachments/assets/30bd7483-f056-4b1e-8959-22e6ee582984
    * **Канал обновлений**: выберите нужный (например `Office 2024 бесcрочный (корпоративный)`)
    * **Установочный модуль**: оставьте **Office Deployment Tool**.
 6. Нажмите кнопку **«Начать развертывание»** и дождитесь окончания процесса (интернет должен быть стабильным).
+<img width="926" height="662" alt="изображение" src="https://github.com/user-attachments/assets/cf9331b2-04a0-40ad-8da5-653c1db9d4b9" />
 
 ### Шаг 5: Активация (Ohook)
 1. Перейдите на сайт Massgrave.dev, найдите раздел [Activate Windows / Office](https://massgrave.dev/).
