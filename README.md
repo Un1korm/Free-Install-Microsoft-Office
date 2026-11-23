@@ -91,7 +91,8 @@ https://github.com/user-attachments/assets/30bd7483-f056-4b1e-8959-22e6ee582984
    * **Канал обновлений**: выберите нужный (например `Office 2024 бесcрочный (корпоративный)`)
    * **Установочный модуль**: оставьте **Office Deployment Tool**.
 6. Нажмите кнопку **«Начать развертывание»** и дождитесь окончания процесса (интернет должен быть стабильным).
-<img width="926" height="662" alt="изображение" src="https://github.com/user-attachments/assets/cf9331b2-04a0-40ad-8da5-653c1db9d4b9" />
+
+![Установка Office](https://github.com/Un1korm/Free-Install-Microsoft-Office/blob/main/Variant%201/media_instructions/Installing_office.png?raw=true)
 
 ### Шаг 5: Активация (Ohook)
 1.  Перейдите на сайт [Massgrave.dev](https://massgrave.dev) и найдите раздел **Activate Windows / Office**.
@@ -124,7 +125,7 @@ https://github.com/user-attachments/assets/30bd7483-f056-4b1e-8959-22e6ee582984
 
 > 💡 **Важное замечание по поводу предупреждения WPA:** Скрипт активации может выдать предупреждение о большом количестве записей в реестре WPA (например, *"A large number of WPA registries have been found"*). Если ваш компьютер работает нормально, а в Диспетчере задач нет процесса `sppsvc.exe`, который нагружает ЦП на 100%, — просто проигнорируйте это сообщение. Не пытайтесь чистить реестр WPA без острой необходимости, чтобы не сбросить активацию Windows.
 
-<img width="981" height="556" alt="изображение" src="https://github.com/user-attachments/assets/446227fd-7481-4688-8a09-7813638badfc" />
+![Активация Ohook](https://github.com/Un1korm/Free-Install-Microsoft-Office/blob/main/Variant%201/media_instructions/Ohook_activation.png?raw=true)
 
 ### Шаг 6: Удаление OTP
 После успешной установки и активации Office программу **Office Tool Plus можно удалить**. Она нужна была только для скачивания оригинального дистрибутива. Удаление OTP никак не повлияет на работу самого Office.
